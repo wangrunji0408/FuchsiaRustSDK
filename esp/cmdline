@@ -1,0 +1,2 @@
+kernel.halt-on-panic=true
+kernel.serial=legacy

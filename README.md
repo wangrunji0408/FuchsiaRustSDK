@@ -15,14 +15,19 @@ Dependencies:
 Before you start:
 
 ```sh
-rustup target add x86_64-fuchsia
+rustup target add x86_64-fuchsia aarch64-fuchsia
 ```
 
 Build and run:
 
 ```sh
+# for x86_64
 make build  # build Rust project
 make run    # run Zircon on QEMU
+
+# for aarch64
+make buildarm
+make runarm
 ```
 
 Test your programs:
